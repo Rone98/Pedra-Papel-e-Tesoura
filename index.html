@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra,Papel e Tesoura</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="fundo"></div>
+    <div class="container">
+        <div class="texto">
+            <h1>Pedra, Papel, Tesoura</h1>
+        </div>
+        <div class="botoes">
+
+            <button onclick="PlayHumano('Pedra')"><img src="assets/Pedra296854_1920.png" alt=""></button>
+            <button onclick="PlayHumano('Papel')"><img src="assets/Papel  296855_1920.png  " alt=""></button>
+            <button onclick="PlayHumano('Tesoura')"><img src="assets/Tesoura 296853_1920.png" alt=""></button>
+        </div>
+        <p class="Resultado"></p>
+        <p class="Maquina">Escolha Alexa <span id="Maquina">?</span></p>
+        <p class="MeuPontos">Você ganhou <span id="PontosHumano">0</span></p>
+        <p class="AlexaPontos">Alexa ganhou <span id="PontosMaquina">0</span></p>
+        <p class="Empate">Deu empate <span id="Empate">0</span></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

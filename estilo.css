@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fundo {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    transition: opacity 1s ease-in-out;
+    display: block;
+}
+
+body {
+
+    background-color: #f0f4f8;
+
+
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+button {
+
+    background-color: #000000;
+    cursor: pointer;
+    height: 180px;
+    width: 120px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.5s ease;
+    padding-bottom: 0;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+.container {
+
+    flex-direction: column;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 40%;
+    border-radius: 50px;
+    margin-left: 28%;
+    background-color: black;
+
+
+}
+
+img {
+    height: 140px;
+    width: 118px;
+}
+
+.botoes {
+    display: block;
+
+}
+
+.MeuPontos,
+.AlexaPontos,
+.Empate,
+.Resultado,
+.Maquina {
+
+    color: white;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 45px;
+    text-align: left;
+
+}
+
+.texto {
+    text-align: center;
+
+    color: white;
+}
+
+#PontosHumano {
+    color: green;
+}
+
+#PontosMaquina {
+    color: red;
+}
+
+#Empate {
+    color: rgb(255, 247, 14);
+}
