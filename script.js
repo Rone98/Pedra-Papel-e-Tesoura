@@ -1,4 +1,4 @@
-const imagens = [
+/*const imagens = [
     "assets/Pedra296854_1920.png",
     "assets/Papel  296855_1920.png",
     "assets/Tesoura 296853_1920.png"
@@ -28,7 +28,7 @@ function TrocarImagem() {
 
     }, 1000);
 }
-setInterval(TrocarImagem, 10000)
+setInterval(TrocarImagem, 10000)*/
 
 const resultado = document.querySelector(".Resultado")
 const PontosHumano = document.getElementById("PontosHumano")
